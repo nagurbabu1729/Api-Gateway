@@ -15,7 +15,7 @@ spring:
             - Path=/product/**
 
         - id: order-service
-          uri: lb://Order
+          uri: lb://order
           predicates:
             - Path=/order/**
 
